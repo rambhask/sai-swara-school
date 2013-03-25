@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-SaiSwaraSchool::Application.config.secret_token = '485a869e5c3f4e427788b4a46a6f8839ec3073bbb26f80ff71b547afa4489eb8d163c8754bd67cdde79d999505eab1ad2d838c015c168ddfb62d6cccf2099456'
+SaiSwaraSchool::Application.config.secret_token = '28d0e9a2ca65786a7329edc9383c25cc34d13a846cd362be68ab7385bb4013adb43b3918a0887fb24a2c3282f5cbba6f2f7a7e736b4b379d591014d4548ee143'
