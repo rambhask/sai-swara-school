@@ -1,4 +1,9 @@
 SaiSwaraSchool::Application.routes.draw do
+  root :to => 'home#index'
+  match "/about" => 'home#about'
+  match "/events" => 'home#events'
+  match "/contact" => 'home#contact'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

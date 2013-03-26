@@ -1,0 +1,54 @@
+<h1 class="home"> Sai Swara School of Music </h1>
+
+<div class="span5">
+<div class="left-container">
+	<div class="fadein">
+	  <img src="/images/trinity.jpg">
+	  <img src="/images/100_3056.JPG">
+	  <img src="/images/100_3120.JPG">
+	  <img src="/images/100_4707.jpg">
+	  <img src="/images/100_4708.jpg">
+	  <img src="/images/100_4759.jpg">
+	  <img src="/images/100_4776.jpg">
+	  <img src="/images/100_4847.jpg">
+	  <img src="/images/100_5407.jpg">
+	  <img src="/images/100_5417.jpg">
+
+	</div>
+</div>
+</div>
+<script>
+$(function(){
+    $('.fadein img:gt(0)').hide();
+    setInterval(function(){
+      $('.fadein :first-child').fadeOut()
+         .next('img').fadeIn()
+         .end().appendTo('.fadein');}, 
+      5000);
+});
+
+</script>
+
+<div class="span5">
+<div class= "right-container">
+	<div class="fadein2">
+		<img src="/images/trinity.jpg">
+		<img src="/images/100_4685.jpg">
+	</div>
+</div>
+</div>
+<script>
+$(function(){
+    $('.fadein2 img:gt(0)').hide();
+    setInterval(function(){
+      $('.fadein2 :first-child').fadeOut()
+         .next('img').fadeIn()
+         .end().appendTo('.fadein2');}, 
+      5000);
+});
+
+</script>
+
+<p class="left-blurb">
+	Welcome to Sai Swara School of Music, the carnatic music school of Smt. Lalitha Bhaskar. She has been teaching music for over 20 years, 12 of them being in the metro-Detoit Area. To learn more about Mrs. Lalitha Bhaskar or this school, go here.
+</p>
